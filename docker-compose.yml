@@ -1,0 +1,11 @@
+version: '3.0'
+
+services:
+  lab:
+    build: .
+    container_name: lab
+    ports:
+      - 8888:8888
+    volumes:
+      - ../CarND-Object-Detection-Lab:/app
+    working_dir: /app

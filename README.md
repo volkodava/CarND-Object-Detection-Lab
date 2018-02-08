@@ -31,6 +31,16 @@ carnd-advdl-odlab        /usr/local/anaconda3/envs/carnd-advdl-odlab
 root                  *  /usr/local/anaconda3
 ```
 
+Run the docker container:
+```bash
+docker-compose build && docker-compose up
+```
+
+Stop the docker container:
+```bash
+docker-compose down
+```
+
 Further documentation on [working with Anaconda environments](https://conda.io/docs/using/envs.html#managing-environments). 
 
 Particularly useful sections:

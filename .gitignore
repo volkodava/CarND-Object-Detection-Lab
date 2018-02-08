@@ -2,3 +2,5 @@
 __pycache__
 .DS_STORE
 .ipynb_checkpoints
+ssd_mobilenet_v1_coco_2017_11_17
+.idea
